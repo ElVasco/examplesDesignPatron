@@ -5,6 +5,7 @@ public class Principal {
 	public static void main(String[] args) {
 		JugadorFactory jf = new JugadorFactory();
 		Jugador j = jf.crearJugador();
+		System.out.println(j);
 	}
 	
 	static class Jugador{
